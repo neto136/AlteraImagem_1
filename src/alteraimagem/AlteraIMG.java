@@ -55,7 +55,7 @@ public class AlteraIMG extends JPanel{
         int width, height, bands;
         
         String arquivo = JOptionPane.showInputDialog(null, "Digite o nome (com diretório) do arquivo de imagem \nCaso não seja digitado, será aberto o padrão");
-        if (arquivo.equals(""))
+        if (arquivo.equals("") )
             arquivo = "Tulips.jpg";
 
         //Faz a leitura do arquivo de imagem
